@@ -258,13 +258,43 @@
         ::-webkit-scrollbar-thumb{background:rgba(184,116,10,.2);border-radius:10px}
 
         @media(max-width:768px){
-            .hdr-c{flex-direction:column;text-align:center}
-            .tabs{justify-content:center}
-            .tb{padding:7px 10px;font-size:.78em}
+            .hdr-c{flex-direction:column;text-align:center;gap:6px}
+            .hdr-s{justify-content:center}
+            .tabs{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;padding:5px;gap:3px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+            .tabs::-webkit-scrollbar{display:none}
+            .tb{padding:8px 12px;font-size:.78em;white-space:nowrap;flex-shrink:0}
             .fg{grid-template-columns:1fr}
             .ctn{padding:8px}
             .dash-stats{grid-template-columns:repeat(2,1fr)}
             .btn{padding:9px 14px;font-size:.84em}
+            /* sticky stats - 2 rows on mobile */
+            .sticky-stats{grid-template-columns:repeat(4,1fr);top:60px;padding:8px;gap:5px}
+            .ss-n{font-size:1.1em}
+            .ss-l{font-size:.6em}
+            /* table - horizontal scroll */
+            .dtbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+            .dtbl{min-width:700px;font-size:.78em}
+            .dtbl th,.dtbl td{padding:7px 8px}
+            /* tracking cards */
+            .trc{flex-direction:column}
+            .trc>div:last-child{width:100%}
+            /* client header wrap */
+            .client-header{flex-direction:column;align-items:flex-start}
+            /* backup bar */
+            .backup-bar{flex-direction:column;gap:6px}
+            .backup-actions{flex-wrap:wrap}
+            /* modals */
+            .mdl{border-radius:12px 12px 0 0;position:fixed;bottom:0;left:0;right:0;max-height:85vh;max-width:100%}
+            .mo{align-items:flex-end;padding:0}
+            /* ai window */
+            .ai-win{width:calc(100vw - 20px);left:10px;bottom:80px}
+        }
+        @media(max-width:480px){
+            .sticky-stats{grid-template-columns:repeat(2,1fr)}
+            .dash-stats{grid-template-columns:repeat(2,1fr)}
+            .bg2{flex-direction:column}
+            .bg2 .btn{width:100%;justify-content:center}
+            .hdr-s .sb{font-size:.68em;padding:3px 8px}
         }
     </style>
 </head>
@@ -769,12 +799,31 @@ function renderTrack(){
     if(srch)O=O.filter(o=>o.client.toLowerCase().includes(srch)||o.prd.name.toLowerCase().includes(srch));
     if(tFil!=='all')O=O.filter(o=>{const c=Object.values(o.prd.comps);const r=c.filter(x=>x.received).length;return tFil==='pending'?r===0:tFil==='received'?r===c.length:r>0&&r<c.length});
     if(!O.length){c.innerHTML='<div class="es"><h3>لا نتائج</h3></div>';return}
-    c.innerHTML=O.map(o=>{const comps=Object.values(o.prd.comps);const rv=comps.filter(c=>c.received).length;const pct=comps.length?Math.round(rv/comps.length*100):0;const d=daysSince(o.date);return`<div class="client-section"><div class="client-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'"><h3>${pct===100?'✅':pct>0?'🔶':'⏳'} ${o.client} - ${o.prd.name} <span style="font-size:.75em;color:var(--text3)">${o.oc}</span></h3><div style="display:flex;gap:6px;align-items:center"><span class="dy ${dyC(d)}">${d}d</span><span style="font-size:.82em;color:var(--text2)">${rv}/${comps.length} ${pct}%</span></div></div><div class="client-body" style="display:none">${comps.map(cc=>`<div class="trc ${cc.received?'rec':'nrec'}"><div style="flex:1;min-width:150px"><h4 style="color:var(--text);font-size:.86em">${cc.received?'✅':'⏳'} ${cc.dn}</h4><div style="color:var(--text3);font-size:.75em">${cc.qty} ${cc.unit} | ${cc.code}${cc.recDate?' | 📅'+cc.recDate:''}${cc.notes?' | 📝'+cc.notes:''}</div></div><div style="display:flex;flex-direction:column;gap:4px;min-width:140px"><div style="display:flex;gap:4px"><button class="btn btn-s btn-sm" onclick="tgR('${o.oc}','${cc.id}',1)" ${cc.received?'disabled':''}>✅ وصل</button><button class="btn btn-d btn-sm" onclick="tgR('${o.oc}','${cc.id}',0)" ${!cc.received?'disabled':''}>⏳ لم يصل</button></div><textarea class="ni" placeholder="ملاحظات..." onchange="svN('${o.oc}','${cc.id}',this.value)">${cc.notes||''}</textarea></div></div>`).join('')}<div style="display:flex;gap:5px;margin-top:8px"><button class="btn btn-s btn-sm" onclick="mA('${o.oc}',1)">✅ تأكيد الكل</button><button class="btn btn-d btn-sm" onclick="mA('${o.oc}',0)">⏳ إلغاء الكل</button></div></div></div>`}).join('');
+    c.innerHTML=O.map(o=>{const comps=Object.values(o.prd.comps);const rv=comps.filter(c=>c.received).length;const pct=comps.length?Math.round(rv/comps.length*100):0;const d=daysSince(o.date);return`<div class="client-section" data-oc="${o.oc}"><div class="client-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'"><h3>${pct===100?'✅':pct>0?'🔶':'⏳'} ${o.client} - ${o.prd.name} <span style="font-size:.75em;color:var(--text3)">${o.oc}</span></h3><div style="display:flex;gap:6px;align-items:center"><span class="dy ${dyC(d)}">${d}d</span><span style="font-size:.82em;color:var(--text2)">${rv}/${comps.length} ${pct}%</span></div></div><div class="client-body" style="display:none">${comps.map(cc=>`<div class="trc ${cc.received?'rec':'nrec'}"><div style="flex:1;min-width:150px"><h4 style="color:var(--text);font-size:.86em">${cc.received?'✅':'⏳'} ${cc.dn}</h4><div style="color:var(--text3);font-size:.75em">${cc.qty} ${cc.unit} | ${cc.code}${cc.recDate?' | 📅'+cc.recDate:''}${cc.notes?' | 📝'+cc.notes:''}</div></div><div style="display:flex;flex-direction:column;gap:4px;min-width:140px"><div style="display:flex;gap:4px"><button class="btn btn-s btn-sm" onclick="tgR('${o.oc}','${cc.id}',1)" ${cc.received?'disabled':''}>✅ وصل</button><button class="btn btn-d btn-sm" onclick="tgR('${o.oc}','${cc.id}',0)" ${!cc.received?'disabled':''}>⏳ لم يصل</button></div><textarea class="ni" placeholder="ملاحظات..." onchange="svN('${o.oc}','${cc.id}',this.value)">${cc.notes||''}</textarea></div></div>`).join('')}<div style="display:flex;gap:5px;margin-top:8px"><button class="btn btn-s btn-sm" onclick="mA('${o.oc}',1)">✅ تأكيد الكل</button><button class="btn btn-d btn-sm" onclick="mA('${o.oc}',0)">⏳ إلغاء الكل</button></div></div></div>`}).join('');
 }
 
-async function tgR(oc,cid,st){const c=D.orders[oc].prd.comps[cid];c.received=!!st;c.recDate=st?new Date().toLocaleString('ar-EG'):null;D.orders[oc].hist.push({a:`${st?'✅':'⏳'} ${c.dn}`,d:new Date().toLocaleString('ar-EG')});D.orders[oc].status=Object.values(D.orders[oc].prd.comps).every(x=>x.received)?'completed':'active';await sDB();renderTrack();renderDash();toast(`${st?'✅':'⏳'} ${c.dn}`,st?'s':'w')}
+// renderTrack but keep the current open section open
+function renderTrackKeepOpen(openOc){
+    // Save which sections are open
+    const openSections=new Set();
+    document.querySelectorAll('#tList .client-section').forEach(sec=>{
+        const body=sec.querySelector('.client-body');
+        const oc=sec.dataset.oc;
+        if(oc&&body&&body.style.display!=='none')openSections.add(oc);
+    });
+    openSections.add(openOc);
+    renderTrack();
+    // Restore open state
+    document.querySelectorAll('#tList .client-section').forEach(sec=>{
+        const body=sec.querySelector('.client-body');
+        const oc=sec.dataset.oc;
+        if(oc&&openSections.has(oc)&&body)body.style.display='block';
+    });
+}
+
+async function tgR(oc,cid,st){const c=D.orders[oc].prd.comps[cid];c.received=!!st;c.recDate=st?new Date().toLocaleString('ar-EG'):null;D.orders[oc].hist.push({a:`${st?'✅':'⏳'} ${c.dn}`,d:new Date().toLocaleString('ar-EG')});D.orders[oc].status=Object.values(D.orders[oc].prd.comps).every(x=>x.received)?'completed':'active';await sDB();renderTrackKeepOpen(oc);renderDash();toast(`${st?'✅':'⏳'} ${c.dn}`,st?'s':'w')}
 function svN(oc,cid,n){D.orders[oc].prd.comps[cid].notes=n;sDB()}
-async function mA(oc,st){for(let k in D.orders[oc].prd.comps){D.orders[oc].prd.comps[k].received=!!st;D.orders[oc].prd.comps[k].recDate=st?new Date().toLocaleString('ar-EG'):null}D.orders[oc].status=st?'completed':'active';await sDB();renderTrack();renderDash();toast(st?'✅ تم استلام الكل':'⏳',st?'s':'w')}
+async function mA(oc,st){for(let k in D.orders[oc].prd.comps){D.orders[oc].prd.comps[k].received=!!st;D.orders[oc].prd.comps[k].recDate=st?new Date().toLocaleString('ar-EG'):null}D.orders[oc].status=st?'completed':'active';await sDB();renderTrackKeepOpen(oc);renderDash();toast(st?'✅ تم استلام الكل':'⏳',st?'s':'w')}
 
 function renderShort(){
     const c=document.getElementById('sList');const O=Object.values(D.orders).filter(o=>o.status!=='delivered'&&Object.values(o.prd.comps).some(c=>!c.received));
