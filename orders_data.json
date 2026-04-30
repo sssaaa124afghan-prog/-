@@ -1,10 +1,182 @@
 {
-  "orders": {},
-  "lO": 0,
-  "lP": 0,
+  "orders": {
+    "ORD-0001": {
+      "oc": "ORD-0001",
+      "client": "اوردر للاختبار",
+      "prd": {
+        "name": "منتج 1",
+        "type": "عطر",
+        "size": "-",
+        "code": "MNTJ-001",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة منتج 1",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب منتج 1",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب منتج 1",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ منتج 1",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس منتج 1",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر منتج 1",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت منتج 1",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل منتج 1",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-BST-08"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ منتج 1",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-DYE-09"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول منتج 1",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 10,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-ALC-10"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت منتج 1",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 11,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-OIL-11"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا منتج 1",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 12,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MNTJ-BAC-12"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-30T05:32:55.689Z",
+      "dateStr": "٣٠‏/٤‏/٢٠٢٦ ٩:٣٢:٥٥ ص",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣٠‏/٤‏/٢٠٢٦ ٩:٣٢:٥٥ ص"
+        }
+      ]
+    }
+  },
+  "lO": 1,
+  "lP": 1,
   "_meta": {
-    "device": "device_e2fmw0u5",
-    "timestamp": 1777527116289,
-    "date": "٣٠‏/٤‏/٢٠٢٦ ٩:٣١:٥٦ ص"
+    "device": "device_fbf1d5i1",
+    "timestamp": 1777527180310,
+    "date": "٣٠‏/٤‏/٢٠٢٦ ٩:٣٣:٠٠ ص"
   }
 }
