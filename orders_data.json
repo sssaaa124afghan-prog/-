@@ -1,0 +1,408 @@
+{
+  "orders": {
+    "ORD-0003": {
+      "oc": "ORD-0003",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "فواح",
+        "type": "عطر",
+        "size": "-",
+        "code": "FWAH-003",
+        "comps": {
+          "cap": {
+            "id": "cap",
+            "dn": "كاب فواح",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "غير متوفر في السوق",
+            "code": "FWAH-CAP-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس فواح",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FWAH-BOX-02"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T06:12:20.332Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ١٠:١٢:٢٠ ص",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ١٠:١٢:٢٠ ص"
+        }
+      ]
+    },
+    "ORD-0004": {
+      "oc": "ORD-0004",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "فزاع",
+        "type": "عطر",
+        "size": "100ml",
+        "code": "FZAA-004",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة فزاع",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب فزاع",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب فزاع",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ فزاع",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس فزاع",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر فزاع",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت فزاع",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل فزاع",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-BST-08"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ فزاع",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-DYE-09"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول فزاع",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 10,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-ALC-10"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت فزاع",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 11,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-OIL-11"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا فزاع",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 12,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FZAA-BAC-12"
+          }
+        }
+      },
+      "qty": 200,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-12T13:30:03.374Z",
+      "dateStr": "١٢‏/٤‏/٢٠٢٦ ٥:٣٠:٠٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء (AI)",
+          "d": "١٢‏/٤‏/٢٠٢٦ ٥:٣٠:٠٣ م"
+        }
+      ]
+    },
+    "ORD-0005": {
+      "oc": "ORD-0005",
+      "client": "سيسيس",
+      "prd": {
+        "name": "يسيسي",
+        "type": "عطر",
+        "size": "-",
+        "code": "YSYS-005",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة يسيسي",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب يسيسي",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب يسيسي",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ يسيسي",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس يسيسي",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر يسيسي",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت يسيسي",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل يسيسي",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-BST-08"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ يسيسي",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-DYE-09"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول يسيسي",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 10,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-ALC-10"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت يسيسي",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 11,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-OIL-11"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا يسيسي",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 12,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YSYS-BAC-12"
+          }
+        }
+      },
+      "qty": 2,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-30T04:27:52.945Z",
+      "dateStr": "٣٠‏/٤‏/٢٠٢٦ ٨:٢٧:٥٢ ص",
+      "deadline": null,
+      "notes": "ملاحظات مهمة هنا",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣٠‏/٤‏/٢٠٢٦ ٨:٢٧:٥٢ ص"
+        },
+        {
+          "a": "✏️ تعديل",
+          "d": "٣٠‏/٤‏/٢٠٢٦ ٨:٢٨:٢١ ص"
+        }
+      ]
+    }
+  },
+  "lO": 5,
+  "lP": 5,
+  "_meta": {
+    "device": "device_e2fmw0u5",
+    "timestamp": 1777525672737,
+    "date": "٣٠‏/٤‏/٢٠٢٦ ٩:٠٧:٥٢ ص"
+  }
+}
