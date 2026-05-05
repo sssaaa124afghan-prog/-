@@ -2117,13 +2117,88 @@
           "d": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٤٠ م"
         }
       ]
+    },
+    "ORD-0032": {
+      "oc": "ORD-0032",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "الكسير",
+        "type": "عطر",
+        "size": "-",
+        "code": "ALKS-032",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس الكسير",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALKS-BOX-01"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت الكسير",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALKS-PLT-02"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ الكسير",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALKS-DYE-03"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت الكسير",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALKS-OIL-04"
+          }
+        }
+      },
+      "qty": 1000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-05T11:50:39.512Z",
+      "dateStr": "٥‏/٥‏/٢٠٢٦، ٣:٥٠:٣٩ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٥‏/٥‏/٢٠٢٦، ٣:٥٠:٣٩ م"
+        }
+      ]
     }
   },
-  "lO": 31,
-  "lP": 31,
+  "lO": 32,
+  "lP": 32,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1777749661051,
-    "date": "٢‏/٥‏/٢٠٢٦، ١١:٢١:٠١ م"
+    "timestamp": 1777981843561,
+    "date": "٥‏/٥‏/٢٠٢٦، ٣:٥٠:٤٣ م"
   }
 }
