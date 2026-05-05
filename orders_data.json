@@ -2255,13 +2255,76 @@
           "d": "٥‏/٥‏/٢٠٢٦، ٣:٥١:١٩ م"
         }
       ]
+    },
+    "ORD-0034": {
+      "oc": "ORD-0034",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "تايجر بلاك",
+        "type": "عطر",
+        "size": "-",
+        "code": "TAYJ-034",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس تايجر بلاك",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "TAYJ-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ تايجر بلاك",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "TAYJ-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت تايجر بلاك",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "TAYJ-OIL-03"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-05T11:54:18.186Z",
+      "dateStr": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:١٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:١٨ م"
+        }
+      ]
     }
   },
-  "lO": 33,
-  "lP": 33,
+  "lO": 34,
+  "lP": 34,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1777981884271,
-    "date": "٥‏/٥‏/٢٠٢٦، ٣:٥١:٢٤ م"
+    "timestamp": 1777982062205,
+    "date": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:٢٢ م"
   }
 }
