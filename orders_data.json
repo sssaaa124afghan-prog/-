@@ -2318,13 +2318,148 @@
           "d": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:١٨ م"
         }
       ]
+    },
+    "ORD-0035": {
+      "oc": "ORD-0035",
+      "client": "منصور بوتيك",
+      "prd": {
+        "name": "بوتيك",
+        "type": "عطر",
+        "size": "-",
+        "code": "BWTY-035",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة بوتيك",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب بوتيك",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب بوتيك",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ بوتيك",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس بوتيك",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر بوتيك",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت بوتيك",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل بوتيك",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-BST-08"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت بوتيك",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BWTY-OIL-09"
+          }
+        }
+      },
+      "qty": 300,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-05T11:54:50.460Z",
+      "dateStr": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:٥٠ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:٥٠ م"
+        }
+      ]
     }
   },
-  "lO": 34,
-  "lP": 34,
+  "lO": 35,
+  "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1777982062205,
-    "date": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:٢٢ م"
+    "timestamp": 1777982095279,
+    "date": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:٥٥ م"
   }
 }
