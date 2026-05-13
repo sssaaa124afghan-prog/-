@@ -3409,13 +3409,112 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٨:٢٢ م"
         }
       ]
+    },
+    "ORD-0044": {
+      "oc": "ORD-0044",
+      "client": "حكايه شوق",
+      "prd": {
+        "name": "ستيكر",
+        "type": "عطر",
+        "size": "-",
+        "code": "STYK-044",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة ستيكر",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "STYK-BTL-01"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب ستيكر",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "STYK-PMP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس ستيكر",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "STYK-BOX-03"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر ستيكر",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "STYK-STK-04"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت ستيكر",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "STYK-PLT-05"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل ستيكر",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "STYK-BST-06"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:39:41.515Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٩:٤١ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٩:٤١ م"
+        }
+      ]
     }
   },
-  "lO": 43,
-  "lP": 43,
+  "lO": 44,
+  "lP": 44,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778665106841,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٨:٢٦ م"
+    "timestamp": 1778665185538,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٩:٤٥ م"
   }
 }
