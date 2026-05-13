@@ -2950,13 +2950,100 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٢:٥٨ م"
         }
       ]
+    },
+    "ORD-0039": {
+      "oc": "ORD-0039",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "الهنوف",
+        "type": "عطر",
+        "size": "-",
+        "code": "ALHN-039",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس الهنوف",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALHN-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر الهنوف",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALHN-STK-02"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل الهنوف",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALHN-BST-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ الهنوف",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALHN-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت الهنوف",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALHN-OIL-05"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:33:38.125Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٣٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٣٨ م"
+        }
+      ]
     }
   },
-  "lO": 38,
-  "lP": 38,
+  "lO": 39,
+  "lP": 39,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778664782878,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٠٢ م"
+    "timestamp": 1778664818886,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٣٨ م"
   }
 }
