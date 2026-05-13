@@ -2713,13 +2713,88 @@
           "d": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:٥٠ م"
         }
       ]
+    },
+    "ORD-0036": {
+      "oc": "ORD-0036",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "لايك",
+        "type": "عطر",
+        "size": "-",
+        "code": "LAYK-036",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس لايك",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAYK-BOX-01"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل لايك",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAYK-BST-02"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ لايك",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAYK-DYE-03"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت لايك",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAYK-OIL-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:28:13.994Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٢٨:١٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٢٨:١٣ م"
+        }
+      ]
     }
   },
-  "lO": 35,
-  "lP": 35,
+  "lO": 36,
+  "lP": 36,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659599572,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٦:٣٩ م"
+    "timestamp": 1778664498039,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٢٨:١٨ م"
   }
 }
