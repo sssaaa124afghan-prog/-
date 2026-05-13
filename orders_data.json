@@ -2369,8 +2369,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٥ م",
             "notes": "",
             "code": "NYSH-BOX-01"
           },
@@ -2381,8 +2381,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٦ م",
             "notes": "",
             "code": "NYSH-DYE-02"
           },
@@ -2393,8 +2393,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٦ م",
             "notes": "",
             "code": "NYSH-OIL-03"
           }
@@ -2407,12 +2407,24 @@
       "dateStr": "٥‏/٥‏/٢٠٢٦، ٣:٥١:١٩ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٥‏/٥‏/٢٠٢٦، ٣:٥١:١٩ م"
+        },
+        {
+          "a": "✅ بوكس نيشان",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٥ م"
+        },
+        {
+          "a": "✅ صبغ نيشان",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٦ م"
+        },
+        {
+          "a": "✅ زيت نيشان",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٦ م"
         }
       ]
     },
@@ -2432,8 +2444,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٨ م",
             "notes": "",
             "code": "TAYJ-BOX-01"
           },
@@ -2444,8 +2456,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٨ م",
             "notes": "",
             "code": "TAYJ-DYE-02"
           },
@@ -2456,8 +2468,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٩ م",
             "notes": "",
             "code": "TAYJ-OIL-03"
           }
@@ -2470,12 +2482,24 @@
       "dateStr": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:١٨ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٥‏/٥‏/٢٠٢٦، ٣:٥٤:١٨ م"
+        },
+        {
+          "a": "✅ بوكس تايجر بلاك",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٨ م"
+        },
+        {
+          "a": "✅ صبغ تايجر بلاك",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٨ م"
+        },
+        {
+          "a": "✅ زيت تايجر بلاك",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٩ م"
         }
       ]
     },
@@ -2619,7 +2643,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659463474,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٣ م"
+    "timestamp": 1778659474205,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٣٤ م"
   }
 }
