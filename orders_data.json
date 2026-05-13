@@ -3598,13 +3598,76 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ٢:١٤:٥١ م"
         }
       ]
+    },
+    "ORD-0047": {
+      "oc": "ORD-0047",
+      "client": "قسوره",
+      "prd": {
+        "name": "بكس هارد",
+        "type": "عطر",
+        "size": "-",
+        "code": "BKSH-047",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس بكس هارد",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSH-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر بكس هارد",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSH-STK-02"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بكس هارد",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSH-DYE-03"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T10:16:22.190Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ٢:١٦:٢٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ٢:١٦:٢٢ م"
+        }
+      ]
     }
   },
-  "lO": 46,
-  "lP": 46,
+  "lO": 47,
+  "lP": 47,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778667295786,
-    "date": "١٣‏/٥‏/٢٠٢٦، ٢:١٤:٥٥ م"
+    "timestamp": 1778667386712,
+    "date": "١٣‏/٥‏/٢٠٢٦، ٢:١٦:٢٦ م"
   }
 }
