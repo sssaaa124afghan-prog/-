@@ -995,8 +995,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٤ م",
             "notes": "",
             "code": "21-BTL-01"
           },
@@ -1007,8 +1007,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٤ م",
             "notes": "",
             "code": "21-CAP-02"
           },
@@ -1019,8 +1019,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٥ م",
             "notes": "",
             "code": "21-BOX-03"
           },
@@ -1031,8 +1031,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٥ م",
             "notes": "",
             "code": "21-PLT-04"
           }
@@ -1045,12 +1045,28 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٤٩:٢٦ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٣١‏/٣‏/٢٠٢٦ ٤:٤٩:٢٦ م"
+        },
+        {
+          "a": "✅ غرشة 21",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٤ م"
+        },
+        {
+          "a": "✅ كاب 21",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٤ م"
+        },
+        {
+          "a": "✅ بوكس 21",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٥ م"
+        },
+        {
+          "a": "✅ بلايت 21",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٥٥ م"
         }
       ]
     },
@@ -2559,7 +2575,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659418201,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٨ م"
+    "timestamp": 1778659440332,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٠ م"
   }
 }
