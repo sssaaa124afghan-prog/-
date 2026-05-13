@@ -2041,8 +2041,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٩ م",
             "notes": "",
             "code": "ICON-DYE-01"
           }
@@ -2055,12 +2055,16 @@
       "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٩:٥٦ م",
       "deadline": null,
       "notes": "23 نوع كل اسم 250 حبه المجموع 5750",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١‏/٤‏/٢٠٢٦ ٢:٣٩:٥٦ م"
+        },
+        {
+          "a": "✅ صبغ icon",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٩ م"
         }
       ]
     },
@@ -2615,7 +2619,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659458552,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٨ م"
+    "timestamp": 1778659463474,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٢٣ م"
   }
 }
