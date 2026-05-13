@@ -770,8 +770,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:١٩ م",
             "notes": "",
             "code": "AWDT-BTL-01"
           },
@@ -782,8 +782,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٠ م",
             "notes": "",
             "code": "AWDT-CAP-02"
           },
@@ -794,8 +794,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٠ م",
             "notes": "",
             "code": "AWDT-BOX-03"
           },
@@ -806,8 +806,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٢ م",
             "notes": "",
             "code": "AWDT-OIL-04"
           }
@@ -820,12 +820,28 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٣٠:٤٤ م",
       "deadline": null,
       "notes": "5 اسماء كل اسم 250 حبه",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٣١‏/٣‏/٢٠٢٦ ٤:٣٠:٤٤ م"
+        },
+        {
+          "a": "✅ غرشة عود توله",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:١٩ م"
+        },
+        {
+          "a": "✅ كاب عود توله",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٠ م"
+        },
+        {
+          "a": "✅ بوكس عود توله",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٠ م"
+        },
+        {
+          "a": "✅ زيت عود توله",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٢ م"
         }
       ]
     },
@@ -857,8 +873,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٤ م",
             "notes": "",
             "code": "RSHW-STK-02"
           }
@@ -871,7 +887,7 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٣٣:٢٩ م",
       "deadline": null,
       "notes": "مرشات مع بكس 4 اسماء \nكل اسم 250 حبه",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
@@ -881,6 +897,10 @@
         {
           "a": "✅ بوكس رشوش",
           "d": "٧‏/٤‏/٢٠٢٦ ٣:٥٣:٤١ م"
+        },
+        {
+          "a": "✅ ستيكر رشوش",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٤ م"
         }
       ]
     },
@@ -2527,7 +2547,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659394541,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:١٤ م"
+    "timestamp": 1778659409321,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٩ م"
   }
 }
