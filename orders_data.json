@@ -920,8 +920,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٢ م",
             "notes": "",
             "code": "HACI-BOX-01"
           },
@@ -932,8 +932,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٢ م",
             "notes": "",
             "code": "HACI-PLT-02"
           },
@@ -944,8 +944,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٣ م",
             "notes": "",
             "code": "HACI-OIL-03"
           }
@@ -958,12 +958,24 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٣٧:٤٦ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٣١‏/٣‏/٢٠٢٦ ٤:٣٧:٤٦ م"
+        },
+        {
+          "a": "✅ بوكس hacivat",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٢ م"
+        },
+        {
+          "a": "✅ بلايت hacivat",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٢ م"
+        },
+        {
+          "a": "✅ زيت hacivat",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٣ م"
         }
       ]
     },
@@ -2547,7 +2559,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659409321,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٢٩ م"
+    "timestamp": 1778659418201,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٣٨ م"
   }
 }
