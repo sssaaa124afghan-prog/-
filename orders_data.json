@@ -396,8 +396,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٢ م",
             "notes": "",
             "code": "BLAK-BOX-03"
           },
@@ -408,8 +408,8 @@
             "unit": "مل",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٢ م",
             "notes": "",
             "code": "BLAK-DYE-04"
           },
@@ -420,8 +420,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٣ م",
             "notes": "",
             "code": "BLAK-OIL-05"
           }
@@ -434,7 +434,7 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:١٧:٥٢ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
@@ -448,6 +448,18 @@
         {
           "a": "✅ كاب بلاك تايجر",
           "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠١ م"
+        },
+        {
+          "a": "✅ بوكس بلاك تايجر",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٢ م"
+        },
+        {
+          "a": "✅ صبغ بلاك تايجر",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٢ م"
+        },
+        {
+          "a": "✅ زيت بلاك تايجر",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٣ م"
         }
       ]
     },
@@ -542,8 +554,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٧ م",
             "notes": "",
             "code": "BRAY-BTL-01"
           },
@@ -598,6 +610,10 @@
         {
           "a": "📋 إنشاء",
           "d": "٣١‏/٣‏/٢٠٢٦ ٤:٢٠:٠٤ م"
+        },
+        {
+          "a": "✅ غرشة برايف",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٧ م"
         }
       ]
     },
@@ -2499,7 +2515,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659382109,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٢ م"
+    "timestamp": 1778659388219,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٨ م"
   }
 }
