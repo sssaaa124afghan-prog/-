@@ -3187,13 +3187,124 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٠٠ م"
         }
       ]
+    },
+    "ORD-0042": {
+      "oc": "ORD-0042",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "Ah هارد",
+        "type": "عطر",
+        "size": "-",
+        "code": "AHHA-042",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة Ah هارد",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AHHA-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب Ah هارد",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AHHA-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس Ah هارد",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AHHA-BOX-03"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر Ah هارد",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AHHA-STK-04"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت Ah هارد",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AHHA-PLT-05"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل Ah هارد",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AHHA-BST-06"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت Ah هارد",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AHHA-OIL-07"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:35:47.204Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٤٧ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٤٧ م"
+        }
+      ]
     }
   },
-  "lO": 41,
-  "lP": 41,
+  "lO": 42,
+  "lP": 42,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778664904796,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٠٤ م"
+    "timestamp": 1778664951223,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٥١ م"
   }
 }
