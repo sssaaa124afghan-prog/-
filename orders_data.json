@@ -28,8 +28,8 @@
             "unit": "قطعة",
             "qty": 2000,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٤٩ م",
             "notes": "",
             "code": "HAYL-BOX-02"
           },
@@ -40,8 +40,8 @@
             "unit": "مل",
             "qty": 2200,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٠ م",
             "notes": "",
             "code": "HAYL-DYE-03"
           },
@@ -52,8 +52,8 @@
             "unit": "%",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٠ م",
             "notes": "تم طلب الاورر وبانتظاره",
             "code": "HAYL-OIL-04"
           }
@@ -66,7 +66,7 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ١٠:٠٧:٢٩ ص",
       "deadline": null,
       "notes": "باقي بكسات من الاوردر القديل 200 والصبغ اضافه 200",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
@@ -84,6 +84,18 @@
         {
           "a": "✅ وصل غرشة",
           "d": "١٢‏/٤‏/٢٠٢٦، ٦:١١:٢٢ م"
+        },
+        {
+          "a": "✅ بوكس هايل",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٤٩ م"
+        },
+        {
+          "a": "✅ صبغ هايل",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٠ م"
+        },
+        {
+          "a": "✅ زيت هايل",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٠ م"
         }
       ]
     },
@@ -253,8 +265,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٤ م",
             "notes": "",
             "code": "KWKW-BTL-01"
           },
@@ -265,8 +277,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٥ م",
             "notes": "",
             "code": "KWKW-CAP-02"
           },
@@ -277,8 +289,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٥ م",
             "notes": "",
             "code": "KWKW-BOX-03"
           },
@@ -289,8 +301,8 @@
             "unit": "مل",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٦ م",
             "notes": "",
             "code": "KWKW-DYE-04"
           },
@@ -301,8 +313,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٧ م",
             "notes": "",
             "code": "KWKW-OIL-05"
           }
@@ -315,12 +327,32 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:١٦:٥١ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٣١‏/٣‏/٢٠٢٦ ٤:١٦:٥١ م"
+        },
+        {
+          "a": "✅ غرشة كوكو",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٤ م"
+        },
+        {
+          "a": "✅ بوكس كوكو",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٥ م"
+        },
+        {
+          "a": "✅ كاب كوكو",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٥ م"
+        },
+        {
+          "a": "✅ صبغ كوكو",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٦ م"
+        },
+        {
+          "a": "✅ زيت كوكو",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٥٧ م"
         }
       ]
     },
@@ -340,8 +372,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠١ م",
             "notes": "",
             "code": "BLAK-BTL-01"
           },
@@ -352,8 +384,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠١ م",
             "notes": "",
             "code": "BLAK-CAP-02"
           },
@@ -408,6 +440,14 @@
         {
           "a": "📋 إنشاء",
           "d": "٣١‏/٣‏/٢٠٢٦ ٤:١٧:٥٢ م"
+        },
+        {
+          "a": "✅ غرشة بلاك تايجر",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠١ م"
+        },
+        {
+          "a": "✅ كاب بلاك تايجر",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠١ م"
         }
       ]
     },
@@ -2459,7 +2499,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659350666,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٢:٣٠ م"
+    "timestamp": 1778659382109,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٢ م"
   }
 }
