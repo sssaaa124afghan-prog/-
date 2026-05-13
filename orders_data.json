@@ -3508,13 +3508,52 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٩:٤١ م"
         }
       ]
+    },
+    "ORD-0045": {
+      "oc": "ORD-0045",
+      "client": "امواج الكويت",
+      "prd": {
+        "name": "امبيريال",
+        "type": "عطر",
+        "size": "-",
+        "code": "AMBY-045",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس امبيريال",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AMBY-BOX-01"
+          }
+        }
+      },
+      "qty": 300,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:40:58.492Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٤٠:٥٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٤٠:٥٨ م"
+        }
+      ]
     }
   },
-  "lO": 44,
-  "lP": 44,
+  "lO": 45,
+  "lP": 45,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778665185538,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٩:٤٥ م"
+    "timestamp": 1778665273280,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٤١:١٣ م"
   }
 }
